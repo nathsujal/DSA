@@ -14,6 +14,14 @@ DAY 1 (08/08/2023):
    - The flow chart of how Java code is executed
 
 DAY 2 (09/08/2023):
-- Learned the basics of Array, ArrayList and their functions in Java
+- Learned the basics of Array, ArrayList, and their functions in Java
 - Kadane's Algorithm
 - Dutch National Flag Algorithm
+
+DAY 3 (10/08/2023):
+- Learned about Strings in Java.
+- String Operations
+- Pretty Printing / formatting
+- String Comparission
+- String Builder
+- String Functions
