@@ -25,3 +25,7 @@ DAY 3 (10/08/2023):
 - String Comparission
 - String Builder
 - String Functions
+
+DAY 4 (11/08/2023):
+- Linear Search
+- Binary Search
