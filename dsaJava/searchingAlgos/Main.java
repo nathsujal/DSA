@@ -20,7 +20,7 @@ public class Main {
         System.out.print("Enter the number: ");
         num = in.nextInt();
 
-        int index = BinarySearchDesc(arr, num);
+        int index = BinarySearch(arr, num);
 
         if (index > 0) {
             System.out.println(num + " in " + Arrays.toString(arr) + " is at index " + index);
