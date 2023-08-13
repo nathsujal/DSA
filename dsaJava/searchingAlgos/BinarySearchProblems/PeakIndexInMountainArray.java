@@ -31,18 +31,25 @@ public class PeakIndexInMountainArray {
     public static int peak(int[] arr) {
         int start = 0, end = arr.length - 1;
 
-        while (start <= end) {
+        while (start < end) {
             int mid = start + (end - start) / 2;
-            System.out.println(arr[mid]);
-
-            if (arr[mid - 1] < arr[mid] && arr[mid] > arr[mid + 1]) {
-                return mid;
-            } else if (arr[mid - 1] < arr[mid] && arr[mid] < arr[mid + 1]) {
+            if (arr[mid] > arr[mid+1]){
+                // we are in the descending part of the array
+                // check in the left side
+                // arr[mid] may be the peak element, thus end = mid
+                end = mid;
+            } else{
+                // we are in the ascending part of the array
+                // check in the right side
+                // arr[mid] < arr[mid- 1] thus it is not the peak element, thus start = mid + 1
                 start = mid + 1;
-            } else if (arr[mid - 1] > arr[mid] && arr[mid] > arr[mid + 1]) {
-                end = mid - 1;
             }
         }
-        return -1;
+        // start equls end, at the peak elment
+        // thus condition for the breaking of the loop is (start == end)
+        // i.e., the while loop will run till start < end
+        // atlast returning start -> as the peak index
+        // at the end of the loop, start and end points to the peak element
+        return start;
     }
 }
