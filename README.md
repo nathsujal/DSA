@@ -37,3 +37,10 @@ DAY 5 (12/08/2023):
 - First and Last Position of an element in a number
 - Searching an element in an Infinite Array
 - Peak element in a mountain array
+
+DAY 6 (13/08/2023):
+- Find in Mountain Array
+- Search in Rotated Sorted Array (RBS: Rotated Binary Search)
+- Search in Rotated Sorted Array with Duplicate Values
+- Rotation Count
+- Split Array Largest Sum
