@@ -1,6 +1,6 @@
 My journey of learning DSA in Java and C++
 - I know the basics of Java and C++.
-- I also know the basics of some DSA concepts like Array, Linked List, Stack, Queues, Sorting algo, and Searching algo. I just need to revise these concepts and learn what I left earlier.
+- I also know the basics of some DSA concepts like Array, Linked List, Stack, Queues, Sorting algo, and Searching algo. I need to revise these concepts and learn what I left earlier.
 - I will also share my journey on Twitter and LinkedIn.
 
 Roadmap: https://whimsical.com/array-TnG4XjTuE3jeViGANx8Qiy
@@ -29,3 +29,11 @@ DAY 3 (10/08/2023):
 DAY 4 (11/08/2023):
 - Linear Search
 - Binary Search
+
+DAY 5 (12/08/2023):
+- Ceiling of a number
+- Floor of a number
+- Smallest letter greater than the target
+- First and Last Position of an element in a number
+- Searching an element in an Infinite Array
+- Peak element in a mountain array
