@@ -44,3 +44,8 @@ DAY 6 (13/08/2023):
 - Search in Rotated Sorted Array with Duplicate Values
 - Rotation Count
 - Split Array Largest Sum
+
+DAY 7 (14/08/2023):
+- 2D Array / Matrix
+   - Search in a 2D array with row- and column-wise sorted elements
+   - Search in a 2D sorted array
