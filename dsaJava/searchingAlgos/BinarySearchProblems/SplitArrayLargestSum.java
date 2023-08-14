@@ -1,13 +1,14 @@
 package searchingAlgos.BinarySearchProblems;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class SplitArrayLargestSum {
+
+    // https://leetcode.com/problems/split-array-largest-sum/
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n, k;
-        System.out.println("Rotated Binary Search\n\n");
         System.out.print("size of the array: ");
         n = in.nextInt();
         int[] arr = new int[n];
@@ -32,7 +33,6 @@ public class SplitArrayLargestSum {
         while (start < end) {
             int mid = start + (end - start) / 2;
             int pieces = split(arr, mid);
-            System.out.println(start + " " + end + " " + mid + " " + pieces);
 
             if (pieces <= k) {
                 // sum needs to decrease
@@ -48,18 +48,16 @@ public class SplitArrayLargestSum {
     }
 
     public static int split(int[] arr, int maxSum) {
-        int pieces = 0;
+        int pieces = 1;
         int sum = 0;
-        System.out.print("Sum: ");
         for (int i = 0; i < arr.length; i++) {
-            sum += arr[i];
-            if (sum > maxSum) {
-                System.out.print(sum + " ");
+            if (sum + arr[i] > maxSum) {
                 pieces++;
                 sum = 0;
             }
+            sum += arr[i];
         }
-        System.out.println();
+
         return pieces;
     }
 
