@@ -49,3 +49,10 @@ DAY 7 (14/08/2023):
 - 2D Array / Matrix
    - Search in a 2D array with row- and column-wise sorted elements
    - Search in a 2D sorted array
+
+DAY 8 (15/08/2023):
+- Jump Search
+- Interpolation Search
+- Exponential Search
+- KMP Algorithm
+   - Pattern Search Algorithm
