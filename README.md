@@ -56,3 +56,9 @@ DAY 8 (15/08/2023):
 - Exponential Search
 - KMP Algorithm
    - Pattern Search Algorithm
+
+DAY 9 (16/08/2023):
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Cycle Sort
