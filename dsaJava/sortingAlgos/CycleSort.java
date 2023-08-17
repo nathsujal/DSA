@@ -22,9 +22,23 @@ public class CycleSort {
     }
 
     public static void cycleSort(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            while (i != arr[i] - 1) {
-                swap(arr, i, arr[i] - 1);
+        /*
+         * elements of the array range from [0, n-1]
+         * index = element
+         */
+        int index = 0;
+        while (index < arr.length) {
+            // correct index of arr[index] is arr[index]
+            // if elements = [0, n-1] => index = element
+            // if elements = [1, n] => index = element - 1
+            int correctIndex = arr[index];
+            if (arr[index] != arr[correctIndex]) {
+                // if arr[index] is not at its correct index
+                // swap it with the element at its correct index
+                swap(arr, index, correctIndex);
+            } else {
+                // else, move to next index
+                index++;
             }
         }
     }
