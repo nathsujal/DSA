@@ -71,3 +71,6 @@ DAY 10 (17/08/2023):
 - Find all the Duplicate Elements
 - Set Mismatch
 - Find First Missing Positive Number
+
+DAY 11 (18/08/2023):
+- Patterns
