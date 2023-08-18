@@ -62,3 +62,12 @@ DAY 9 (16/08/2023):
 - Selection Sort
 - Insertion Sort
 - Cycle Sort
+
+DAY 10 (17/08/2023):
+- Practiced problems on Cyclic sort
+- Find Missing Number
+- Find all the Disappeared Elements
+- Find Duplicate Element
+- Find all the Duplicate Elements
+- Set Mismatch
+- Find First Missing Positive Number
