@@ -74,3 +74,7 @@ DAY 10 (17/08/2023):
 
 DAY 11 (18/08/2023):
 - Patterns
+
+DAY 12 (19/08/2023):
+- Recursion
+- Space and Time Complexity
