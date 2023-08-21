@@ -78,3 +78,10 @@ DAY 11 (18/08/2023):
 DAY 12 (19/08/2023):
 - Recursion
 - Space and Time Complexity
+
+DAY 13-14 (20/08/2023 - 21/08/2023):
+- Bitwise Operators
+- Number Systems
+- Number Conversions
+- Bitwise Manipulation
+- Solved a no of problems too
