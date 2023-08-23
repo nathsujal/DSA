@@ -7,7 +7,7 @@ Roadmap: https://whimsical.com/array-TnG4XjTuE3jeViGANx8Qiy
 
 DAY 1 (08/08/2023):
 - Learned the basics of Java
-   - How Java code executes?
+   - How is Java code executed?
    - What is platform independence?
    - Architecture of Java
    - JDK, JRE, JVM, JIT
@@ -85,3 +85,9 @@ DAY 13-14 (20/08/2023 - 21/08/2023):
 - Number Conversions
 - Bitwise Manipulation
 - Solved a no of problems too
+
+DAY 15-16 (22/08/2023 - 23/08/2023):
+- Explored Recursion
+- Mastered array handling through Recursion
+- Implemented Bubble Sort, Selection Sort, and Insertion Sort using Recursion
+- Solved problems on recursion (easy)
