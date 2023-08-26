@@ -91,3 +91,7 @@ DAY 15-16 (22/08/2023 - 23/08/2023):
 - Mastered array handling through Recursion
 - Implemented Bubble Sort, Selection Sort, and Insertion Sort using Recursion
 - Solved problems on recursion (easy)
+
+DAY 17-18 (24/08/2023 - 25/08/2023):
+- Quick Sort
+- Merge Sort
