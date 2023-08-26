@@ -1,23 +1,9 @@
-package recursion.Problems.Easy;
+package recursion;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class BubbleSort {
-
-    /*
-     * Recursive Bubble Sort
-     * 
-     * article link:
-     * https://www.geeksforgeeks.org/recursive-bubble-sort/
-     * 
-     * Problem link:
-     * https://practice.geeksforgeeks.org/problems/bubble-sort/1
-     * 
-     * Problem:
-     * Given an Integer N and a list arr. Sort the array using bubble sort
-     * algorithm.
-     * 
-     */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("n: ");
